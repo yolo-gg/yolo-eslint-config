@@ -1,0 +1,35 @@
+{
+  "name": "@yolo-lab/eslint-config",
+  "license": "MIT",
+  "version": "1.0.0",
+  "author": "Yolo Lab",
+  "main": "index.js",
+  "workspaces": [
+    "./packages/**"
+  ],
+  "scripts": {
+    "release": "lerna publish"
+  },
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=8",
+    "prettier": ">=2.8.3"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-unicorn": "44.0.2"
+  },
+  "devDependencies": {
+    "eslint": ">=8"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

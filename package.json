@@ -1,0 +1,27 @@
+{
+  "name": "yolo-eslint-config",
+  "version": "1.0.0",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.18"
+  },
+  "scripts": {
+    "release": "lerna publish"
+  },
+  "keywords": [
+    "eslint",
+    "lint",
+    "eslint-config",
+    "yolo",
+    "yolo lab"
+  ],
+  "author": "Yolo Lab",
+  "dependencies": {
+    "eslint": "^8.38.0",
+    "lerna": "^6.6.1",
+    "typescript": "^5.0.4"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
